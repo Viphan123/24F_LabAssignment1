@@ -47,7 +47,7 @@ You must create a new **PRIVATE GitHub repository** for your **`management-servi
   - Your code should be organized and documented using comments.
   
 - **.http File**:
-  - Include an `.http` file that contains sample API test requests. This file should allow easy testing of your service’s API endpoints (such as `GET /orders`, `PUT /orders/:id`) using VS Code’s REST client.
+  - Include an `.http` file that contains sample API test requests. This file should allow easy testing of your service’s API endpoints (such as `GET /orders`) using VS Code’s REST client.
 
 
 ### 2. Deleting Azure Resources:

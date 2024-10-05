@@ -79,6 +79,7 @@ It is highly recommended that you commit your work to your GitHub repository **p
 
 ### Late Assignments
 Assignments are due on the date and time specified by the course professor. Assignments **not submitted on time** will incur a **10% deduction per day**. After **5 days**, a **zero** will be assigned. Ensure that your assignments are clearly written, complete, and adhere to College standards to reflect a professional image.
+> **Note:** Any changes made to your submission GitHub repository **after the deadline** will be **ignored**. Only the state of the repository at the time of the deadline will be considered for grading.
 
 ### Academic Integrity
 As a learner, you are expected to follow Algonquin College’s **Academic Integrity Policy AA48**. If academic misconduct is suspected, it will be reported to the Academic Integrity Manager. This could result in a zero on the assignment or more severe academic sanctions.

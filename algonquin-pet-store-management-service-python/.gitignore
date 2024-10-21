@@ -1,0 +1,4 @@
+# To exclude sensitive files
+venv
+.env
+__pycache__

@@ -1,0 +1,2 @@
+# Get orders from the management-service
+GET http://localhost:5000/api/orders

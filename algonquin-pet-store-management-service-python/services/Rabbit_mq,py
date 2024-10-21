@@ -1,0 +1,21 @@
+import os
+import pika
+
+# Get RabbitMQ URL from environment variables
+rabbitmq_url = os.getenv('RABBITMQ_URL')
+
+# Connect to RabbitMQ
+connection = pika.BlockingConnection(pika.URLParameters(rabbitmq_url))
+channel = connection.channel()
+
+# Declare the queue where messages will be retrieved
+channel.queue_declare(queue='orders')
+
+# Fetch and process messages
+def callback(ch, method, properties, body):
+    print("Received order: %r" % body)
+
+channel.basic_consume(queue='orders', on_message_callback=callback, auto_ack=True)
+
+print('Waiting for orders...')
+channel.start_consuming()
